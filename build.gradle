@@ -34,7 +34,8 @@ subprojects {
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.12'
         compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
-        annotationProcessor 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok:1.18.12'
+        compile 'cn.hutool:hutool-all:5.3.10'
     }
 
 }
