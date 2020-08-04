@@ -1,0 +1,6 @@
+rootProject.name = 'leetcode-study'
+
+
+include 'leetcode-try'
+include 'geekband-try'
+
