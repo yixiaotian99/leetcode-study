@@ -30,10 +30,8 @@ public class BubbleSort {
         //外层循环遍历一次所有元素
         for (int i = 0; i < size; i++) {
 
-            //内层循环，注意 j=0 开始表示始终从第一个元素开始比较
-            //循环终止条件，size-已排好序元素i, size - i
-            //如果下一个节点则 j+1 < size-i 转为  j < size -i -1
-            for (int j = 0; j < size - i - 1; j++) {
+
+            for (int j = i; j < size - i - 1; j++) {
 
                 //基于稳定排序，如果前面值>后面值，交换顺序
                 if (arr[j] > arr[j + 1]) {
