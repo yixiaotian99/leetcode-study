@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @see https://time.geekbang.org/column/article/41802
  **/
 @Slf4j
-public class InsertSort {
+public class InsertionSort {
 
 
     /**
@@ -90,7 +90,7 @@ public class InsertSort {
 
 
     public static void main(String[] args) {
-        InsertSort insertSort = new InsertSort();
+        InsertionSort insertSort = new InsertionSort();
 //        insertSort.insertionSort(new int[]{4, 5, 6, 1, 3, 2}, 6);
 
         insertSort.testInsertSort(new int[]{4, 5, 6, 1, 3, 2});
